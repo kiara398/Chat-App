@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(29, 29, 29);
+    color: aliceblue;
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+    background-image: url(/paper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: white; */
+    padding: 15px;
+    width: 50%;
+    border-radius: 12px;
+    border: 1px solid grey;
+    margin-top: 50px;
+    max-height: 350px;
+    overflow-y: scroll;
+}
+#messages{
+   font-size: 15px;
+   color: black;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 115px;
+   max-height: 300px;
+   overflow-y: hidden;
+}
+
+form, input{
+    padding: 25px;
+    width: 63%;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+}
+button{
+    margin-left: 20px;
+    border: none;
+    padding: 15px;
+    width: 12%;
+    background-color: cornflowerblue;
+}
+h1{
+    text-align: center;
+}
+
+/* #messages .message {
+	padding: 10px;
+	margin-bottom: 15px;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#messages .message .meta {
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	opacity: 0.7;
+	margin-bottom: 7px;
+    display: flex;
+}
+
+#messages .message .meta span {
+	color: #777;
+    margin-left: auto;
+} */
